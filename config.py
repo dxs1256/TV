@@ -1,7 +1,7 @@
 ip_version_priority = "ipv6"
 
 source_urls = [
-    "https://taoiptv.com/subs/42014.m3u?token=bf75d7098ea68615
+    "https://taoiptv.com/subs/42014.m3u?token=bf75d7098ea68615",
     "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
     "https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt",
     "https://live.zhoujie218.top/tv/iptv6.txt",
