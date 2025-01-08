@@ -1,0 +1,56 @@
+    <script>
+        const playerContainer = document.getElementById('playerContainer');
+        const urlParams = new URLSearchParams(window.location.search);
+        const m3uUrl = urlParams.get('url');
+
+        if (m3uUrl) {
+           fetch(m3uUrl)
+            .then(response => response.text())
+            .then(m3uContent => {
+               const urls = m3uContent.split('\n')
+                    .filter(line => !line.startsWith('#') && line.trim() !== '');
+
+              let html = "";
+              for(let url of urls) {
+                  if(url.endsWith(".m3u8")) { // 使用 Hls.js 播放
+                      html += `<video id="videoPlayer${urls.indexOf(url)}" controls></video><br/>`;
+                  } else if(url.endsWith(".mp4")) {
+                       html += `<video src="${url}" controls></video><br/>`;
+                  } else if (url.endsWith(".mp3")) {
+                      html += `<audio src="${url}" controls></audio><br/>`
+                  } else {
+                     html += `<p>无法播放: ${url}</p><br/>`
+                  }
+               }
+             playerContainer.innerHTML = html;
+
+            urls.forEach( (url, index) => {
+                if(url.endsWith(".m3u8")) {
+                    const video = document.getElementById(`videoPlayer${index}`);
+                     if (Hls.isSupported()) {
+                        const hls = new Hls();
+                        hls.loadSource(url);
+                        hls.attachMedia(video);
+                        hls.on(Hls.Events.MANIFEST_PARSED, function() {
+                            video.play();
+                        });
+                    } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+                        video.src = url;
+                        video.addEventListener('loadedmetadata', function() {
+                            video.play();
+                        });
+                    }
+                 }
+              })
+        })
+        .catch(error => {
+             playerContainer.innerHTML = `<p>Error fetching m3u file: ${error.message}</p>`;
+         });
+        } else {
+            playerContainer.innerHTML = "<p>https://raw.githubusercontent.com/dxs1256/IPTV/refs/heads/main/live.m3u</p>";
+        }
+
+    </script>
+</body>
+</html>
+```
