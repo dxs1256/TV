@@ -54,8 +54,6 @@ announcements = [
     {
         "channel": "公告",
         "entries": [
-            {"name": "请阅读", "url": "https://liuliuliu.tv/api/channels/1997/stream", "logo": "https://img.picui.cn/free/2025/01/08/677e99d3734ba.png"},
-            {"name": "yuanzl77.github.io", "url": "https://liuliuliu.tv/api/channels/233/stream", "logo": "https://img.picui.cn/free/2025/01/08/677e99d3734ba.png"},
             {"name": "更新日期", "url": "https://gitlab.com/lr77/IPTV/-/raw/main/%E4%B8%BB%E8%A7%92.mp4", "logo": "https://img.picui.cn/free/2025/01/08/677e99d3734ba.png"},
             {"name": None, "url": "https://gitlab.com/lr77/IPTV/-/raw/main/%E8%B5%B7%E9%A3%8E%E4%BA%86.mp4", "logo": "https://img.picui.cn/free/2025/01/08/677e99d3734ba.png"}
         ]
