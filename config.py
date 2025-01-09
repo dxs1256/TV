@@ -51,10 +51,8 @@ announcements = [
     {
         "channel": "公告",
         "entries": [
-            {"name": "更新日期", "url": "
-https://cdn-cf-east.streamable.com/video/mp4/t1k37o.mp4?Expires=1736696013610&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ&Signature=gkCJar8pHEx25DtMIwxBoYap09XhpBuGkXP06G4gH0hUNy9DZAUWWyWyc3W~TE7X2Py4YV56hB6AfGrnufoUJNliE5quw7dYKcPcSiAOKMdns9ddnyOMQg9eJexAM9AwScNwXrzzEuoDSYZIeKrfwCZUYLyRKZkib4lvQEvi~Wou2BGgQOpbi-GpksPrX52nLA6fu~2erc-IqtYSiAUZI1Ntmssho3DQ-gxS6w35x3ql5ZPYD2QEafNvj2P~NooLpTBHxHvfVlFGPWY1ceMJxa7uNfdA-4~E4SRw31MlWNyRFFQhFudkyxUfLxh6WNCaoZSELo4LZXupndxgEKPH5g__", "logo": "https://img.picui.cn/free/2025/01/08/677e99d3734ba.png"},
-            {"name": None, "url": "
-https://cdn-cf-east.streamable.com/video/mp4/t1k37o.mp4?Expires=1736696013610&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ&Signature=gkCJar8pHEx25DtMIwxBoYap09XhpBuGkXP06G4gH0hUNy9DZAUWWyWyc3W~TE7X2Py4YV56hB6AfGrnufoUJNliE5quw7dYKcPcSiAOKMdns9ddnyOMQg9eJexAM9AwScNwXrzzEuoDSYZIeKrfwCZUYLyRKZkib4lvQEvi~Wou2BGgQOpbi-GpksPrX52nLA6fu~2erc-IqtYSiAUZI1Ntmssho3DQ-gxS6w35x3ql5ZPYD2QEafNvj2P~NooLpTBHxHvfVlFGPWY1ceMJxa7uNfdA-4~E4SRw31MlWNyRFFQhFudkyxUfLxh6WNCaoZSELo4LZXupndxgEKPH5g__", "logo": "https://img.picui.cn/free/2025/01/08/677e99d3734ba.png"}
+            {"name": "更新日期", "url": "https://cdn-cf-east.streamable.com/video/mp4/t1k37o.mp4?Expires=1736696013610&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ&Signature=gkCJar8pHEx25DtMIwxBoYap09XhpBuGkXP06G4gH0hUNy9DZAUWWyWyc3W~TE7X2Py4YV56hB6AfGrnufoUJNliE5quw7dYKcPcSiAOKMdns9ddnyOMQg9eJexAM9AwScNwXrzzEuoDSYZIeKrfwCZUYLyRKZkib4lvQEvi~Wou2BGgQOpbi-GpksPrX52nLA6fu~2erc-IqtYSiAUZI1Ntmssho3DQ-gxS6w35x3ql5ZPYD2QEafNvj2P~NooLpTBHxHvfVlFGPWY1ceMJxa7uNfdA-4~E4SRw31MlWNyRFFQhFudkyxUfLxh6WNCaoZSELo4LZXupndxgEKPH5g__", "logo": "https://img.picui.cn/free/2025/01/08/677e99d3734ba.png"},
+            {"name": None, "url": "https://cdn-cf-east.streamable.com/video/mp4/t1k37o.mp4?Expires=1736696013610&Key-Pair-Id=APKAIEYUVEN4EVB2OKEQ&Signature=gkCJar8pHEx25DtMIwxBoYap09XhpBuGkXP06G4gH0hUNy9DZAUWWyWyc3W~TE7X2Py4YV56hB6AfGrnufoUJNliE5quw7dYKcPcSiAOKMdns9ddnyOMQg9eJexAM9AwScNwXrzzEuoDSYZIeKrfwCZUYLyRKZkib4lvQEvi~Wou2BGgQOpbi-GpksPrX52nLA6fu~2erc-IqtYSiAUZI1Ntmssho3DQ-gxS6w35x3ql5ZPYD2QEafNvj2P~NooLpTBHxHvfVlFGPWY1ceMJxa7uNfdA-4~E4SRw31MlWNyRFFQhFudkyxUfLxh6WNCaoZSELo4LZXupndxgEKPH5g__", "logo": "https://img.picui.cn/free/2025/01/08/677e99d3734ba.png"}
         ]
     }
 ]
