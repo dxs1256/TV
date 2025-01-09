@@ -6,6 +6,7 @@ source_urls = [
     "https://raw.githubusercontent.com/yuanzl77/IPTV/main/直播/央视频道.txt",
     "https://live.zhoujie218.top/tv/iptv6.txt",
     "https://live.zhoujie218.top/tv/iptv4.txt",
+    "https://live.iptv365.org/live.txt",
     "https://www.mytvsuper.xyz/m3u/Live.m3u",
     "http://ww.weidonglong.com/dsj.txt",
     "http://xhztv.top/zbc.txt",
