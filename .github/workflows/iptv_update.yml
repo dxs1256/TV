@@ -51,3 +51,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
+
+      - name: Delete Old Workflows
+        uses: Mattraks/delete-workflow-runs@main
+        with:
+         token: ${{ secrets.GITHUB_TOKEN }}
+         retain_days: 2
+         keep_minimum_runs: 0
